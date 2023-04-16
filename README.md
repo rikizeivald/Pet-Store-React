@@ -5,5 +5,5 @@ Local Environment Setup
 Then, npm install installs all modules that are listed on the package.json file and their dependencies
 
 To Run the Project:
-npm install
+npm install,
 npm start
