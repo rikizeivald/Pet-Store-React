@@ -1,0 +1,12 @@
+export const PET_DELETED='PET_DELETED';
+export const PET_SELECTED='PET_SELECTED';
+export const ADD_PET='ADD_PET';
+export const SET_ERROR='SET_ERROR';
+export const DEL_ERROR='DEL_ERROR';
+export const EDIT_PET='EDIT_PET';
+export const ADD_USER='ADD_USER';
+export const GET_ALL_PETS='GET_ALL_PETS';
+export const SAVE_USERS='SAVE_USERS';
+export const LOGIN_USER='LOGIN_USER';
+export const SAVE_PETS='SAVE_PETS';
+export const DEL_USER='DEL_USER';
