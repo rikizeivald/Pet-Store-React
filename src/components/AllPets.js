@@ -38,7 +38,7 @@ const AllPets = (props)=> {
         setIsPet(false)
         setArrPet(props.petArr)
     }
-   // const { url } = useRouteMatch();
+
     if(isPet){
        return<div>
           <input type="button" onClick={close} value="back to all pets"/>
@@ -63,12 +63,6 @@ const AllPets = (props)=> {
          })
      }
       
-     {/* <Link to={`${url}/add`}>
-     <input type="button" onClick={addPet} value="add"/>
-     </Link>
-     <Route path={`${url}/${name}`}>
-         <AddPet/>
-     </Route> */}
      </> );
 }
 
