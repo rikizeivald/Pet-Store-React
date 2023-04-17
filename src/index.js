@@ -11,6 +11,7 @@ import {BrowserRouter as Router}from 'react-router-dom'
 import { petReducer } from './reducers';
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store=createStore(combineReducers({pet:petReducer}),composeEnhancers(applyMiddleware(thunk)))
+//store.dispatch(getAllPets());
 
 ReactDOM.render(
   <React.StrictMode>
